@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="feedback.css" />
+    <title>Let Us Know Your Feedback</title>
+  </head>
+  <body>
+    <div id="panel" class="panel-container">
+      <strong>How satisfied are you with our <br /> performance?</strong>
+      <div class="ratings-container">
+        <div class="rating">
+          <img src="https://img.icons8.com/external-neu-royyan-wijaya/64/000000/external-emoji-neumojis-smiley-neu-royyan-wijaya-17.png" alt="">
+          <small>Unhappy</small>
+        </div>
+
+        <div class="rating">
+          <img src="https://img.icons8.com/external-neu-royyan-wijaya/64/000000/external-emoji-neumojis-smiley-neu-royyan-wijaya-3.png" alt=""/>
+          <small>Neutral</small>
+        </div>
+
+        <div class="rating active">
+          <img src="https://img.icons8.com/external-neu-royyan-wijaya/64/000000/external-emoji-neumojis-smiley-neu-royyan-wijaya-30.png" alt=""/>
+          <small>Satisfied</small>
+        </div>
+      </div>
+      <div class="feedbacktext">
+        <textarea name="feedbacktext1" id="" cols="30" rows="10" maxlength="100" style="width:340px;height:100px"></textarea>
+      <button class="btn" id="send" onclick="checkinput()">Send Review</button>
+    </div>
+
+    
+    <script src="feedback.js"></script>
+  </body>
+</html>

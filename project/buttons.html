@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    .butons{
+    margin:100px 0px 0px 30px;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    width:300px;  
+    }
+    button{
+    height:40px;border-radius:8px;
+    border: solid black 2px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color:rgb(176, 202, 247)
+    }
+    .icon{
+        margin-right:60px;
+        
+    }  
+</style>
+<body>
+    <div class="butons" >
+        <button id="transport">Transportation FAQs<i class="icon fa-solid fa-caret-right"></i></button><div id="contentArea"></div>
+        <button id="hotel">Hotel FAQs<i class="icon fa-solid fa-caret-right"></i></button>
+        <button id="payment">payment FAQs<i class="icon fa-solid fa-caret-right"></i></button>
+    </div>
+<script>
+  document.getElementById("transport").onclick=function() {
+    location.href="transport.html";
+  };
+  document.getElementById("hotel").onclick=function() {
+    location.href="hotel.html";
+  };
+  
+
+  
+</script>
+</body>
+</html>
